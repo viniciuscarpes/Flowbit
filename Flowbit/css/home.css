@@ -1,0 +1,260 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+ }
+
+ body {
+    background-color: #131d37;
+ }
+
+ img {
+    margin-left: 50px;
+ }
+
+ img:hover {
+   transform: scale(1.2);
+   transition: 0.3s;
+ }
+
+ .head {
+    background-color: #1f2e4d;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #F8FAFC;
+ }
+
+ .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .lista {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-right: 50px;
+ }
+
+ li {
+    cursor: pointer;
+ }
+
+ li:hover {
+    transform: scale(1.2);
+    color: #94A3B8;
+    transition: 0.2s;
+ }
+
+ .text-princ {
+    color: #94A3B8;
+    /* text-shadow: #F8FAFC 1.1px 1px 0px; */
+    text-align: center;
+    margin-top: 35px;
+ }
+
+ .btn {
+    background-color: #4651f6;
+    border: none;
+    color: #F8FAFC;
+    padding: 5px;
+    margin-left: 900px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: azure 1px 1px 1px;
+    cursor: pointer;
+ }
+
+ .btn:hover {
+    background-color: #121b96;
+    transition: 0.5s;
+ }
+
+ .sec2 {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 230px;
+ }
+
+ 
+  .text_sec2 {
+    color: #94A3B8;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 150px;
+ }
+
+ .text-sec {
+    color: #94A3B8;
+    text-align: center;
+    margin-top: 35px; 
+ }
+
+ .plano1 {
+    background-color: #1E293B;
+    border: 1px solid #94A3B8;
+    border-radius: 12px;
+    color: #F8FAFC;
+    width: 200px;
+    padding: 15px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    margin-left: 282px;
+    transition: transform 0.3s ease;
+ }
+
+ .plano1:hover {
+    transition: 0.3s;
+    transform: scale(1.10);
+ }
+
+ .principal {
+    background-color: #263753;
+    border: 1px solid #3B82F6;
+    border-radius: 12px;
+    color: #F8FAFC;
+    width: 200px;
+    padding: 15px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    margin-left: 282px;
+    box-shadow: #F8FAFC 1px 1px 1px;
+    transition: transform 0.3s ease;
+ }
+
+  .principal:hover {
+    transition: 0.3s;
+    transform: scale(1.10);
+ }
+
+  .plano3 {
+    background-color: #0D1B2A;
+    border: 1px solid #FBBF24;
+    border-radius: 12px;
+    color: #F8FAFC;
+    width: 200px;
+    padding: 15px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    margin-left: 282px;
+    transition: transform 0.3s ease;
+ }
+
+  .plano3:hover {
+    transition: 0.3s;
+    transform: scale(1.10);
+ }
+
+  .btn_card_principal {
+    background-color: #22D3A8;
+    border: none;
+    color: #F8FAFC;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 45px;
+    cursor: pointer;
+ }
+
+ .btn_card_principal:hover {
+   background-color: #11a480;
+   transition: 0.3s;
+ }
+
+
+ .btn_card {
+    background-color: #3B82F6;
+    border: none;
+    color: #F8FAFC;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 45px;
+    cursor: pointer;
+ }
+  
+ .btn_card:hover {
+    background-color: #2162cb;
+    transition: 0.3s;
+ }
+
+  .btn_card3 {
+    background-color: #FBBF24;
+    border: none;
+    color: #F8FAFC;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 45px;
+    cursor: pointer;
+ }
+
+ .btn_card3:hover {
+   background-color: #d49b0a;
+   transition: 0.3s;
+ }
+ 
+ .title_card {
+   margin-bottom: 20px;
+   text-align: center;
+   font-weight: 900;
+ }
+
+ .text_card {
+   margin-bottom: 20px;
+   margin-left: 3px;
+ }
+
+ .preco_card {
+   text-align: center;
+   font-size: 15px;
+ }
+
+ .recomend {
+   text-align: center;
+   color: #22D3A8;
+   font-weight: bold;
+   margin-bottom: 20px;
+ }
+
+ .sec3 {
+   margin-top: 100px;
+ }
+
+ .text_sec3 {
+   color: #94A3B8;
+   text-align: center;
+   margin-bottom: 50px;
+   font-size: 23px;
+ }
+
+
+ .p_sec3 {
+   color: #F8FAFC;
+   margin-bottom: 20px;
+   margin-left: 250px;
+   margin-right: 250px;
+   font-size: 16px;
+ }
+
+ .foo {
+   background-color: #1f2e4d;
+   color: #F8FAFC;
+   padding: 20px;
+   margin-top: 100px;
+ }
+
+ .linha {
+   background-color: #94A3B8;
+   width: 100%;
+   padding: 0.5px;
+ }
+
+
+ hr {
+   border: none;
+   border: 1px solid #1E293B;
+   margin-top: 32px;
+ }

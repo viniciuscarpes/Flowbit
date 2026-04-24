@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="imgs/gerenciamento-de-energia.png" type="image/x-icon">
+    <script src="js/login.js" defer></script>
+</head>
+<body>
+    <div style="display: flex;">
+        <div class="lado_do_texto">
+            <h1 class="text">Flowbit</h1>
+            <p class="frase">Organize seu trabalho. Alcance mais resultados.</p>
+            <p class="descricao">Uma plataforma moderna criada para simplificar a gestão de tarefas e projetos, ajudando você a manter o foco, aumentar sua produtividade e transformar organização em resultados reais.</p>
+            <img src="imgs/gerenciamento-de-energia.png" alt="" height="400px">
+        </div>
+        <div class="lado_do_form"> 
+            <form onsubmit="return false">
+                <h2 style="margin-bottom: 15px;">Entrar na sua conta</h2>
+                <label>Nome</label>
+                <input type="text" style="margin-bottom: 10px;">
+                <label id="nome_senha">Senha</label>
+                <div style="margin-bottom: 30px;">
+                <input id="senhadigitada" type="password">
+                <strong id="erro" style="margin-top: 5px; margin-bottom: 10px;"></strong>
+                <br>
+                <br>
+                <button class="btn" onclick="validarSenha()">Entrar</button><br>
+                <a href="" class="link_form">Criar conta</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
